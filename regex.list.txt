@@ -1,0 +1,5 @@
+# PiHole Regex filters
+
+# Block Youtube Ads
+rr[[:digit:]]---sn-[[:alnum:]]{8}\.googlevideo\.com
+rr[[:digit:]]---sn-[[:alnum:]]{8}-[[:alnum:]]{4}\.googlevideo\.com
